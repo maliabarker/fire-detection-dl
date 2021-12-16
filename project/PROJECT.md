@@ -15,7 +15,7 @@ For the sake of clarity, all objectives (both required and bonus) will be identi
 
 1. Fork and clone a copy of this project repository to your local environment – you'll be using classic Jupyter rather than Colab to finish this project. 
 
-2. Save a copy of the `Fire-Detection-Image-Data` from the course Google Drive to a project subfolder called `dataset`. 
+2. Save a copy of the `Fire-Detection-Image-Dataset` data **[found here](https://github.com/UPstartDeveloper/Fire-Detection-Image-Dataset)** to a project subfolder called `dataset/`.
 
 3. Work through the `project/development.ipynb` notebook, solving all required objectives to ensure successful utility of your neural network architectures. 
 
@@ -23,7 +23,7 @@ To get full credit for completing this notebook, ensure you meet the following o
 
 - Full completion of all required objectives across the notebook.
 - Save your model summary as a screenshot and place it within your project subfolder.
-- **Attempt at least THREE hyperparameter changes and tuning efforts across your CNN architecture. These can include the following:
+- **Attempt at least THREE hyperparameter changes and tuning efforts across your CNN architecture. These can include the following:**
     - Different optimizers.
     - Different hyperparameters.
     - New layers.
