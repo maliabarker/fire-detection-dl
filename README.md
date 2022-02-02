@@ -2,7 +2,7 @@
 ![This repo has a MIT license](https://img.shields.io/github/license/UPstartDeveloper/Fire-Detection-API)
 ![Automated tests passing on Travis (.org)](https://img.shields.io/travis/UPstartDeveloper/Fire-Detection-API)
 ![Docker Image Size (latest)](https://img.shields.io/docker/image-size/zainrazatheupstart/fire-classifier-api/latest?style=flat-square)
-![Project cover image](https://i.postimg.cc/d1tr9S2H/Screen-Shot-2021-09-02-at-12-37-00-PM.png)
+![Project cover image](./assets/cover.png)
 An API for detecting fires in images using deep learning.
 
 Deep learning has the power to potentially save millions of dollars (and more importantly, lives) in places like California where the annual "fire season" arrives every Fall.
@@ -17,9 +17,9 @@ To classify your own images, you can use the live API: use the link [here](https
 ### Running Locally
 You only need to use ONE of the following options:
 
-#### Using a Virtual Environment
+#### Using Virtual Environments
 
-This will allow you to also run the automated tests as well (discussed below). Here is the command to install the dependencies locally:
+This is *recommended* for the stage of the project. It will allow you to also run the automated tests (discussed below). Here are the commands to install the dependencies locally:
 
 ```
 $ python3 -m venv env  
@@ -39,6 +39,7 @@ To run the tests, you will first need to set up a Python virtual environment to 
 ```
 If there are no failures, then you should be good to go!
 You can inspect the code for the tests in `app/main_test.py` if you wish.
+
 ## The Data and the Model
 The image dataset and neural network model used for the production API will be documented on the [Releases](https://github.com/UPstartDeveloper/Fire-Detection-API/releases) page of this repository.
 
