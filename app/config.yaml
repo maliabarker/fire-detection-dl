@@ -1,5 +1,7 @@
 resize_shape: [256, 256]
 targets: ['Fire_Images']
-model_file_paths: ["<FILE_NAME(S)_FOR_YOUR_MODEL>"]
-base_model_url: "https://github.com/<YOUR_GITHUB_HANDLE>/Fire-Detection-API-Project/releases/download/<YOUR_RELEASE_VERSION>"
-model_sha256: "<YOUR_RELEASE'S_SHA256_HASH>"
+model_file_paths: ["fire_cnn_classifier_layers.json", "fire_cnn_classifier_params.h5"]
+# OLD: https://github.com/maliabarker/fire-detection-dl/releases/download/v1.0.0
+# NEW/ACTUAL: https://github.com/maliabarker/fire-detection-dl/archive/refs/tags/v1.0.0.zip
+base_model_url: "https://github.com/maliabarker/fire-detection-dl/archive/refs/tags/v1.0.0.zip"
+model_sha256: "3dd99dbcb093a883a09ad3420668e0413656790d9a86c1c31fd2911de16a58d0"
