@@ -1,5 +1,5 @@
 numpy
-tensorflow-cpu
+tensorflow-macos
 fastapi==0.68.1
 opencv-python-headless==4.5.3.56
 PyYAML==5.3
